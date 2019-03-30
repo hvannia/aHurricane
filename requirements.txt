@@ -1,7 +1,4 @@
 alabaster==0.7.12
-anaconda-client==1.7.2
-anaconda-navigator==1.9.6
-anaconda-project==0.8.2
 appdirs==1.4.3
 appnope==0.1.0
 appscript==1.0.1
@@ -27,8 +24,6 @@ Click==7.0
 cloudpickle==0.6.1
 clyent==1.2.2
 colorama==0.4.0
-conda==4.6.8
-conda-build==3.17.1
 constantly==15.1.0
 contextlib2==0.5.5
 cryptography==2.4.2
@@ -70,13 +65,6 @@ jdcal==1.4
 jedi==0.13.1
 Jinja2==2.10
 jsonschema==2.6.0
-jupyter==1.0.0
-jupyter-client==5.2.3
-jupyter-console==6.0.0
-jupyter-core==4.4.0
-jupyterlab==0.35.3
-jupyterlab-launcher==0.13.1
-jupyterlab-server==0.2.0
 kdtree==0.16
 keyring==16.1.1
 kiwisolver==1.0.1
