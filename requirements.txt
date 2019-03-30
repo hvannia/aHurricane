@@ -20,4 +20,3 @@ pyodbc==4.0.24
 pyOpenSSL==18.0.0
 python-dateutil==2.7.5
 SQLAlchemy==1.2.14
-unicodecsv==0.14.1
