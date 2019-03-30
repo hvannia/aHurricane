@@ -1,0 +1,72 @@
+body{
+    background-color: #D1D1D1;
+}
+
+.vis-item {
+    border-color: orange;
+    background-color: orange;
+  }
+ 
+.vis-item.cat5{
+	color: black;
+	background-color: #BD0026;
+	border-color: #710017;
+	
+}
+
+.vis-item.cat4{
+	color: black;
+	background-color: #F03B20;
+	border-color: #b7220c;
+	
+}
+
+.vis-item.cat3{
+	color: black;
+	background-color: #FD8D3C;
+	border-color: #ea6402;
+	
+}
+
+.vis-item.cat2{
+	color: black;
+	background-color: #FECC5C;
+	border-color: #feb410;
+	
+}
+
+.vis-item.cat1{
+	color: black;
+	background-color: #FFFFB2;
+	border-color: #ffff66;
+	
+}
+
+.vis-item.tstorm{
+	color: black;
+	background-color: #B6F0B6;
+	border-color: #77e377;
+	
+}
+
+.vis-item.storm{
+	color: black;
+	background-color: #DCE3DD;
+	border-color: #c0ccc1;
+	
+}
+
+  .vis-time-axis .grid.vis-odd {
+    background: #f5f5f5;
+  }
+
+  .pathmap {
+    height: 700px;
+  }
+
+  .redline{
+      color:'red';
+  }
+
+  .blueline{color:'blue';}
+  .greenline{color:'green';}

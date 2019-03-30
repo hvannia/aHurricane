@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Hurricanes and Typhoons</title>
+
+
+  <script src="../static/js/vsjs/vis.js"></script>
+  <link href="../static/js/vsjs/vis-timeline-graph2d.min.css" rel="stylesheet" type="text/css" />
+  <link href="../static/css/hurriphoon.css" rel="stylesheet" type="text/css" />
+  <link href="../static/css/bootstrap.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Laila" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+  integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+  crossorigin=""/>
+  
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 ">
+                
+                <h3 class="text-center" style="font-family: 'Laila', serif;">
+                 Hurricane and Typhoon timeline - select an event .
+                </h3>
+            </div>
+                
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                    <div id="timeline"></div>
+            </div>
+        </div><!-- end row-->
+       
+        <div class="row" style="height:400px;"><!-- row-->
+            <div class="col-lg-9 " >
+                    <div id="eventPlot"></div>
+            </div><!-- for plot-->
+            <div class="col-lg-3">
+                <div id="eventInfoDiv" style="  border:none;">
+                        <div class="card" style="width: 18rem; border:none; padding-top: 30px;">
+                                <div class="card-body">
+                                  <h3 id="eventId" class="card-title"></h3>
+                                  <h2 id="eventName" class="card-subtitle mb-2 text-muted"></h2>
+                                  <h5 id="eventDates" class="card-text"></h5>
+                                <h5 id="eventSpeed" class="card-text"></h5><!--
+                                  <a href="#" class="card-link">Card link</a>
+                                  <a href="#" class="card-link">Another link</a>-->
+                                </div>
+                              </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+                <div class="col-lg-12">
+                        <div id="pathmap" style="height:500px;"></div>
+                </div>
+        </div><!-- end row-->
+
+    </div><!--container-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    <!-- D3 -->
+    <script src="https://d3js.org/d3.v5.js"></script>
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+    <!-- for leaftlet extension icons 
+    <script src="../static/css/leaflet.extra-markers.min.css"></script>-->
+     
+    <!-- project specific --> 
+ <!-- API Key -->
+    <script type="text/javascript" src="../static/js/config.js"></script>
+    <script src="../static/js/moment.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="../static/js/maps.js"></script>
+    
+    <script src="/static/js/timelineSetup.js"></script>
+   
+    
+
+</body>
+</html>
